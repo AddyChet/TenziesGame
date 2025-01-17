@@ -64,9 +64,9 @@ const Timer = ({isRunning, gameWon, reset})=> {
 
   return (
     <div className="score">
-    <p>Timer: {displayTime()}</p>
-    <p>Current Best: {highScore}</p>
-    <p>Previous Best: {bestScoreRef.current === null ? "00 : 00 : 00" : bestScoreRef.current}</p>
+    <p>Timer: <span>{displayTime()}</span></p>
+    <p>Current Best: <span>{highScore}</span></p>
+    <p>Previous Best: <span>{bestScoreRef.current === null ? "00 : 00 : 00" : bestScoreRef.current}</span></p>
     </div>
   )
 }

@@ -111,7 +111,7 @@ function App() {
               </button>
             </div>
           
-          <p className="dice-rolled">Dice Rolled: {diceRoll}</p>
+          <p className="dice-rolled"> Dice Rolled: <span>{diceRoll}</span></p>
           <Timer isRunning={isRunning} gameWon={gameWon} reset={reset}/>
           </div>
         </section>

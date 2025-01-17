@@ -95,10 +95,22 @@ section {
 
 .dice-rolled {
   margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.dice-rolled span {
+  font-weight: 400;
+  padding-left: 5px;
 }
 
 .score p {
   margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.score p span {
+  font-weight: 400;
+  padding-left: 5px;
 }
 /* timer */
 
