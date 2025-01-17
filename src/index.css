@@ -90,13 +90,35 @@ section {
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
+.dice-rolled {
+  margin-bottom: 10px;
+}
 
+.score p {
+  margin-bottom: 10px;
+}
 /* timer */
 
 .timer {
   margin-top: 20px;
   padding: 20px;
   border: 1px solid;
+}
+
+
+@media (width < 480px) {
+
+  section{
+    width: 350px;
+  }
+
+  .btn {
+    width: 37.86px;
+    height: 50.61px;
+  }
+
+
 }

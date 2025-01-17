@@ -63,7 +63,7 @@ const Timer = ({isRunning, gameWon, reset})=> {
 
 
   return (
-    <div>
+    <div className="score">
     <p>Timer: {displayTime()}</p>
     <p>Current Best: {highScore}</p>
     <p>Previous Best: {bestScoreRef.current === null ? "00 : 00 : 00" : bestScoreRef.current}</p>
